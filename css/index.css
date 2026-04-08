@@ -1,0 +1,34 @@
+*{
+    font-family: monospace;
+    margin: 0%;
+    padding: 0%;
+}
+
+a>img{
+    width: 70px;
+}
+.flag-icon{
+    width: 30px;
+}
+.flag{
+    font-size: 20px;
+}
+.carousel-item>img{
+    width: 100vw;
+    height: 80vh;
+}
+.carousel-caption>h5{
+    font-size: 25px;
+}
+.carousel-caption>p{
+    font-size: 16px;
+}
+/* Feature Cards Hover */
+.card[style*="cursor: pointer"] {
+    transition: all 0.3s ease !important;
+}
+
+.card[style*="cursor: pointer"]:hover {
+    transform: translateY(-5px) !important;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15) !important;
+}
